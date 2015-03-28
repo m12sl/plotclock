@@ -122,7 +122,7 @@ void setup()
 //   // Set current time only the first to values, hh,mm are needed
 //   setTime(19,38,0,0,0,0);
 // #endif
-
+  system("date -s \"28 MAR 2015 12:30:00\"");
   drawTo(75.2, 47);
   lift(0);
   pinMode(SERVOPINLIFT, OUTPUT);
